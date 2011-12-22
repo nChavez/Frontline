@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Frontline</title>
+        <vendor>Nick Chavez</vendor>
+        <homepage href=""/>
+        <description>Frontline</description>
+        <description kind="short">Frontline</description>
+        
+        
+    <icon href="frontlineSmall.png" kind="splash"/>
+</information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="Frontline.jar" main="true"/>
+        
+        
+    </resources>
+    <application-desc main-class="frontline.Launches.LaunchWindowed">
+        
+    <argument>-a</argument>
+</application-desc>
+</jnlp>
